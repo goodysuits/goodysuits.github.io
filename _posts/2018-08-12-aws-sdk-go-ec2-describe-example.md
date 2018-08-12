@@ -153,6 +153,8 @@ func DescribeInstances(sess session.Session) {
 그리고 인스턴스 목록을 가져오기 위해 DescribeInstances를 사용하는데, 그 인자로 넘겨주기 위한 설정들을 DescribeInstancesInput struct를 이용해 생성한다.
 
 위의 예제는 name tag중 test라는 단어가 포함된 모든 인스턴스의 목록을 가져오도록 작성되어 있다.
+name tag가 다른 정보를 통해 인스턴스 목록과 정보를 조회하려면 아래 문서를 참조하자.  
+[aws-sdk-go ec2 DescribeInstancesInput](https://docs.aws.amazon.com/sdk-for-go/api/service/ec2/#DescribeInstancesInput)  
 만약 instance의 id를 통해 instance의 정보를 가져오고 싶으면 Filters가 아닌 InstanceIds를 이용하면 된다.
 
 
