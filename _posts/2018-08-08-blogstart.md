@@ -4,6 +4,8 @@ key: 20180808
 tags: trashtalk
 ---
 
+<!--more-->
+
 예전부터 해보고 싶었던 github.io와 Jekyll을 이용한 블로깅을 이번 기회에 시작해보려고 한다.
 
 Jekyll의 테마는 TeXt를 사용하였다. [TeXt](https://github.com/kitian616/jekyll-TeXt-theme)
