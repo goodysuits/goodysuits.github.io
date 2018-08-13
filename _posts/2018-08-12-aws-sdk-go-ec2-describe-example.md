@@ -123,6 +123,23 @@ func main() {
 
 session 패키지의 NewSessionWithOptions 함수를 사용하여 사용할 credentials의 프로필 이름과, region을 지정한다.
 
+위에서 언급한 것 처럼 access key id와 secret access key를 환경변수로 넘겨주는 방식을 사용하고 싶다면, 아래와 같은 방식으로 사용할 수 있다
+
+
+````go
+func main() {
+    os.Setenv("AWS_ACCESS_KEY_ID", "AKIA")
+    os.Setenv("AWS_SECRET_ACCESS_KEY", "4dGp")
+    sess, _ := session.NewSessionWithOptions(session.Options{
+        Config: aws.Config{
+            Region: aws.String("ap-northeast-2"),
+        },
+    })
+}
+
+// os 패키지를 import해주어야 한다.
+````
+
 
 ````go
 func DescribeInstances(sess session.Session) {
