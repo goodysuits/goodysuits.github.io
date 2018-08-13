@@ -2,7 +2,7 @@
 title: aws-sdk-go를 사용해서 ec2 instance 목록&정보 조회하기
 key: 20180812
 tags: go aws aws-sdk-go
-comment: true
+comments: true
 ---
 
 <!--more-->
