@@ -163,6 +163,15 @@ func main() {
 ````
 
 
+하지만 이런 방식은 코드에 KEY가 포함되기 때문에 추천하지 않는다.
+
+1. aws credentials profile 사용
+2. 환경변수 사용
+3. 코드에 포함되지 않는 config 파일에 등록 후 파일을 읽어 변수로 사용
+
+과 같은 방식을 추천한다.
+
+
 ````go
 func DescribeInstances(sess session.Session) {
     svc := ec2.New(&sess)
