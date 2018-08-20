@@ -1,5 +1,5 @@
 ---
-title: [aws-sdk-go 예제] ec2 DescribeInstances - instance 목록과 정보 조회하기
+title: aws-sdk-go 예제 - ec2 인스턴스 목록과 정보 조회하기
 key: 20180812
 tags: go aws aws-sdk-go
 ---
