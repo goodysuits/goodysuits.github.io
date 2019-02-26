@@ -1,2 +1,1 @@
-# goodysuits.github.io
-blog
+# <https://goodysuits.github.io/>
