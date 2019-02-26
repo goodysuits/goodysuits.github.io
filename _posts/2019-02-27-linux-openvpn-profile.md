@@ -24,7 +24,7 @@ conf 파일이 준비되어 있지 않다면 아래 파일을 참조해서 conf 
 /user/share/doc/openvpn/examples/sample-config-files/client.conf
 ```
 
-위 4개의 파일을 /etc/openvpn 으로 옮긴 후,
+위 4개의 파일을 /etc/openvpn 으로 옮긴 후 (만약 conf 파일에 인증파일들의 경로가 절대경로로 되어있다면, client.conf파일만 옮겨야 한다.)
 
 ```
 $ sudo openvpn --config client.conf
