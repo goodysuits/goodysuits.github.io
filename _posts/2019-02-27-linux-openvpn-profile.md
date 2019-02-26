@@ -1,5 +1,5 @@
 ---
-title: ubuntu에서 config파일로 openvpn client 실행&서비스 등록하기
+title: ubuntu에서 openvpn conf파일로 openvpn client 실행&서비스 등록하기
 key: 20190227
 tags: linux ubuntu network openvpn
 ---
